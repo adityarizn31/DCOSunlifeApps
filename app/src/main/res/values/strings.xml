@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Linear Layout</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="masukan_username">Masukan Username</string>
+    <string name="masukan_password">Masukan Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="m_a_i_n_a_c_t_i_v_i_t_y">M A I N A C T I V I T Y</string>
+    <string name="alamat">Alamat</string>
+    <string name="masukan_alamat">Masukan Alamat</string>
+    <string name="passwordReg">Password</string>
+    <string name="usernameReg">Username</string>
+    <string name="masukan_nama">Masukan Nama</string>
+    <string name="nama">Nama</string>
+    <string name="r_e_g_i_s_t_e_r">R E G I S T E R</string>
+    <string name="nomor_hp">Nomor Hp</string>
+    <string name="masukan_nomor_hp">Masukan Nomor Hp</string>
+    <string name="d_c_o">D C O</string>
+    <string name="saya_menyetujui_atas_syarat_ketentuan"><![CDATA[Saya Menyetujui atas Syarat & Ketentuan !!]]></string>
+    <string name="s_u_n_l_i_f_e">S U N L I F E</string>
+</resources>
