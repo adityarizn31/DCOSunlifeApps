@@ -23,4 +23,13 @@
     <string name="saya_menyetujui_atas_syarat_ketentuan"><![CDATA[Saya Menyetujui atas Syarat & Ketentuan !!]]></string>
     <string name="s_u_n_l_i_f_e">S U N L I F E</string>
     <string name="logo_aplikasi">Logo Aplikasi</string>
+    <string name="register_account">Register Account</string>
+    <string name="forget_account">Forget Account</string>
+    <string name="nama_user">Nama User</string>
+    <string name="nama_lengkap">Nama</string>
+    <string name="username_prof">Username</string>
+    <string name="password_prof">Password</string>
+    <string name="email_prof">Email</string>
+    <string name="edit_profileProf">Edit Profile</string>
+    <string name="logoutProf">Logout</string>
 </resources>

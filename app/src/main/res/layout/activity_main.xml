@@ -15,13 +15,15 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="MainActivity"
+        app:title="Dashboard SunLife"
         app:titleTextColor="@android:color/white" />
 
     <ImageView
         android:id="@+id/ivGambar"
         android:layout_width="match_parent"
         android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
         android:src="@drawable/sunlife"
         android:contentDescription="@string/logo_aplikasi"
         android:scaleType="centerCrop" />
@@ -45,6 +47,64 @@
             android:layout_height="100dp"
             android:layout_weight="1"
             android:background="@android:color/holo_green_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <!-- Kotak kiri -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light" />
+
+        <!-- Kotak tengah -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light" />
+
+        <!-- Kotak akhir -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <!-- Kotak kiri -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light" />
+
+        <!-- Kotak tengah -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light" />
+
+        <!-- Kotak akhir -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light" />
 
     </LinearLayout>
 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".ProfileActivity">
+
+    <!-- Foto Profil -->
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:padding="5dp" />
+
+    <!-- Nama User -->
+    <TextView
+        android:id="@+id/tvNamaLengkapProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_lengkap"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nama User -->
+    <TextView
+        android:id="@+id/tvUsernameProf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username_prof"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nama User -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password_prof"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Email -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_prof"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Tombol Edit Profile -->
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profileProf"
+        android:layout_marginTop="20dp" />
+
+    <!-- Tombol Logout -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logoutProf"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_red_dark" />
+
+
+</LinearLayout>
